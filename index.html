@@ -3,40 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Timeline</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>My Timeline</h1>
-        <div id="logo" style="border:1px solid black; width: 100px; height: 100px; text-align: center; line-height: 100px;">
-            Timeline Logo
-            </div>
-        <br>
+        <div id="logo">Timeline Logo</div>
         <button id="theme" title="Click here to change theme!!">Theme</button>
     </header>
-    <br>
+
     <main>
-    <nav style="border:1px solid black; padding: 10px;">
-        Filters/Placeholders
-    </nav>
-    <br>
-    <section id="timeline"><!--Event markers-->
-        <article>
-            <h2>Event List</h2>
-            <div id="event_image" style="border:1px solid black; width: 100px; height: 100px; text-align: center; line-height: 100px;">
-                Event Image
-                </div>
-                <br>
+        <nav>
+            Filters/Placeholders
+        </nav>
+
+        <section id="timeline">
+            <article class="event">
+                <h2>Event 1</h2>
+                <div class="event-image">Event Image</div>
                 <i>Description of event</i>
-                <br>
-        </article>
-    </section>
-    <br>
-    <div id="modal" style="border:1px solid black; width:500px; height:100px;"><!--for future pop ups--></div>
-</main>
-<br>
-<footer>
+            </article>
+            <article class="event">
+                <h2>Event 2</h2>
+                <div class="event-image">Event Image</div>
+                <i>Description of another event</i>
+            </article>
+        </section>
+
+        <div id="modal"><!-- for future pop ups --></div>
+    </main>
+
+    <footer>
         <p>&copy; 2025 Timeline App. Created by Gouri Jayan.</p>
-</footer>
+    </footer>
 </body>
 </html>
